@@ -1,0 +1,17 @@
+body{
+	background-color: #ffe0b5;
+}
+
+h2{
+	color: #ffe0b5;
+	background-color: #582707;
+	text-align: center;
+	text-decoration: underline;
+}
+
+p{
+	border-width: 3px;
+	border-color: #582707;
+	border-style: solid;
+	padding: 5px;
+}
