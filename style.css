@@ -1,5 +1,6 @@
 body{
 	background-color: #ffe0b5;
+	
 }
 
 h2{
@@ -7,6 +8,7 @@ h2{
 	background-color: #582707;
 	text-align: center;
 	text-decoration: underline;
+	
 }
 
 p{
@@ -14,4 +16,51 @@ p{
 	border-color: #582707;
 	border-style: solid;
 	padding: 5px;
+	
 }
+
+nav{
+	background: #582707;
+	height: 80px;
+	width: 100%;
+	
+}
+
+label.logo{
+	color: #ffe0b5;
+	font-size: 40px;
+	line-height: 80px;
+	
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: right;
+	
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+	
+}
+
+nav ul li a{
+	color: #ffe0b5;
+	font-size: 20px;
+	text-transform: uppercase;
+	
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+	
+	
+	
