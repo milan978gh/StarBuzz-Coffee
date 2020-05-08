@@ -18,7 +18,7 @@
 		
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="feedback.html">Feedback</a></li>
+				<li><a class="active" href="feedback.html">Feedback</a></li>
 				<li><a href="about.html">About us</a></li>
 			</ul>
 		
@@ -26,34 +26,36 @@
 	
 		<h2>Starbuzz Coffee Feedback</h2>
 		
+		<hr>
+
 		<p>Starbuzz Coffee would appreciate a few words from you.</p>
 		
 		<form>
 
 			<hr>
 
-			<a><p>Grade us:</p>
-			<input type="radio" id="grade1" name="grade" value="1"> 1
-			<input type="radio" id="grade2" name="grade" value="2"> 2
-			<input type="radio" id="grade3" name="grade" value="3"> 3
-			<input type="radio" id="grade4" name="grade" value="4"> 4
-			<input type="radio" id="grade5" name="grade" value="5"> 5
-			</a>
+			<h3>Grade us:</h3>
+
+			<input type="radio" id="grade1" name="grade" value="1"> bad
+			<input type="radio" id="grade2" name="grade" value="2"> not bad
+			<input type="radio" id="grade3" name="grade" value="3"> ok
+			<input type="radio" id="grade4" name="grade" value="4"> good
+			<input type="radio" id="grade5" name="grade" value="5"> great
 
 			<hr>
 
-			<a><p>Your age, Please:</p>
-			<input type="radio" id="age1" name="opt" value="0-25"> 0-25
-			<input type="radio" id="age2" name="opt" value="26-35"> 26-35
+			<h3>Your age:</h3>
+
+			<input type="radio" id="age1" name="opt" value="0-20"> 0-20
+			<input type="radio" id="age2" name="opt" value="21-35"> 21-35
 			<input type="radio" id="age3" name="opt" value="36-50"> 36-50
-			<input type="radio" id="age4" name="opt" value="50+"> 50+
-			</a>
+			<input type="radio" id="age4" name="opt" value="51+"> 51+
 
 			<hr>
 
-			<a><p>Few words about you:</p>
+			<h3>Few words about you:</h3>
+
 			<textarea name="bio" id="bio" cols="100" rows="5" placeholder="about you"></textarea>
-			</a>
 
 			<hr>
 
